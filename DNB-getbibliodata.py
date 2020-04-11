@@ -1,18 +1,5 @@
 '''
-Pet project for a colleague who volunteered at a German Language School. They have a small in-house library of German books.
-Years before, someone had created a simple mySQL db to record book titles with a basic check-out system.
-They wanted a modern web OPAC & checkout solution for the students. It had to be easy to administer by a non-tech b/c no resources.
-How to transform messy homegrown bibs with only title & author info, plus some pub dates, 
-entered in EN and/or DE by hand with many mistakes and character encoding issues to boot?
------------------------------------------------------------------
-The incredibly amazing Deutschenationalbibliothek to the rescue 
-https://portal.dnb.de/metadataShop.htm
------------------------------------------------------------------
-Lots of manual overight, of course. Resulting spreadsheet data was cleaned up and bib data uploaded to LibraryThing. 
-In LibraryThing, no technical skills are required to modify items if desired.
-The German Language School now pays a modest fee for their clean, easy to use, TinyCat web catalogue.
-They add new publications, and link book covers etc. via their LibraryThing account, 
-primarily relying on bibliographic data available online (ISBN lookup)
+See https://github.com/nominalie/bib-projects/wiki
 '''
 
 import re,csv, urllib.request,traceback
