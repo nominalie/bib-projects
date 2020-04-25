@@ -10,7 +10,7 @@ class DNB:
 	def __init__(self):
 		
 		self.bookList = "failed isbns.csv" #local filepath of input file
-		self.token = "27d9c1b1657729bcb5a3fb7f9fbe4327" #access token that the DNB provided
+		self.token = "xxxxxxxxxx" #access token that the DNB provided
 		self.queryURL = "https://services.dnb.de/sru/dnb?version=1.1&"#stem of DNB query URL
 		self.isbn=""
 		self.dnb_year=""
