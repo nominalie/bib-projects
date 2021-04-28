@@ -37,9 +37,9 @@ def writeFile(patronData,offset,limit):
     with open('rawUsers.txt','a',encoding='utf-8') as rawUsers:
         if total == limit:
             offset = offset + limit
-            getPatronData(offset,limit)
             rawUsers.write(patronData)
-
+            getPatronData(offset,limit)
+            
         else:
             rawUsers.write(patronData)
             rawUsers.close()
