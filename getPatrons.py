@@ -42,6 +42,5 @@ def writeFile(patronData,offset,limit):
             
         else:
             rawUsers.write(patronData)
-            rawUsers.close()
 
 getPatronData(0,1000)#I request 1000 records at a time, starting with the first record (offset). You can adjust both of these.
